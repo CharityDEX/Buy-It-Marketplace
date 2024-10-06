@@ -1,0 +1,99 @@
+name: eat_it
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.3+7
+
+environment:
+  sdk: ">=2.19.2 <3.0.0"
+  flutter: 3.7.6
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  smooth_page_indicator: ^1.0.1
+  flutter_riverpod: ^2.2.0
+  easy_localization: ^3.0.1
+  riverpod_annotation: ^1.1.1
+  flutter_spinkit: ^5.1.0
+  go_router: ^6.2.0
+  mobile_scanner: ^2.1.0
+  dio: ^5.0.1
+  flutter_svg: ^2.0.2
+  shared_preferences: ^2.0.18
+  uuid: ^3.0.7
+  image_picker: ^0.8.7
+  jwt_decoder: ^2.0.1
+  flutter_image_compress: ^1.0.0-nullsafety
+  image_cropper: ^3.0.2
+  pin_code_fields: ^7.4.0
+  permission_handler: ^10.2.0
+  internet_connection_checker: ^1.0.0+1
+  sizer: ^2.0.15
+  flutter_layout_grid: ^2.0.1
+  syncfusion_flutter_pdfviewer: ^20.4.54
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.3
+  riverpod_generator: ^1.1.1
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/translations/
+    - assets/onboarding/
+    - assets/onboarding/2.0x/
+    - assets/basketPage/
+    - assets/basketPage/2.0x/
+    - assets/confirmation/
+    - assets/confirmation/2.0x/
+    - assets/welcome/
+    - assets/welcome/2.0x/
+    - assets/editProfile/
+    - assets/errorPage/
+    - assets/errorPage/2.0x/
+    - assets/marketplace/
+    - assets/marketplace/2.0x/
+
+  fonts:
+    - family: HindSiliguri
+      fonts:
+        - asset: fonts/hindSiliguri/HindSiliguri-Regular.ttf
+        - asset: fonts/hindSiliguri/HindSiliguri-Bold.ttf
+          weight: 700
+        - asset: fonts/hindSiliguri/HindSiliguri-SemiBold.ttf
+          weight: 600
+    - family: Poppins
+      fonts:
+        - asset: fonts/poppins/Poppins-SemiBold.ttf
+          weight: 600
+    - family: Avenir
+      fonts:
+        - asset: fonts/avenir/Metropolis-Black.otf
+          weight: 900
+        - asset: fonts/avenir/Metropolis-Bold.otf
+          weight: 800
+        - asset: fonts/avenir/Metropolis-SemiBold.otf
+          weight: 700
+        - asset: fonts/avenir/Metropolis-Regular.otf
+          weight: 500
+        - asset: fonts/avenir/Metropolis-Light.otf
+          weight: 400
+    - family: Satoshi
+      fonts:
+        - asset: fonts/satoshi/Satoshi-Black.ttf
+          weight: 900
+        - asset: fonts/satoshi/Satoshi-Bold.ttf
+          weight: 800
+        - asset: fonts/satoshi/Satoshi-Medium.ttf
+          weight: 600
+        - asset: fonts/satoshi/Satoshi-Regular.ttf
+          weight: 500
+        - asset: fonts/satoshi/Satoshi-Light.ttf
+          weight: 400

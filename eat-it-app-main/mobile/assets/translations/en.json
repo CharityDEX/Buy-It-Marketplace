@@ -1,0 +1,228 @@
+{
+  "onboarding": {
+    "0": {
+      "title": "we are...",
+      "message": "Your guide to shopping sustainably. Scan your products, get data on their environmental impact and compete for Eat.It points!"
+    },
+    "1": {
+      "title": "smart choices",
+      "message": "You have the power to make an impact. Right here and right now. If you think about your choices and take the right decisions, our future will be in good hands."
+    },
+    "2": {
+      "title": "compete",
+      "message": "We want you to be a sustainability leader. Gain as many Eat.It points as possible and offline rewards for your smart choices."
+    },
+    "next": "Next",
+    "get-started": "Get Started"
+  },
+  "delete-user-alert": {
+    "text": "Are you sure you want to delete your account?",
+    "accept-btn": "Yes",
+    "dis-btn": "No"
+  },
+  "scanner": {
+    "error": {
+      "title": "New product",
+      "message": "You have found a new product! No data is available on it yet."
+    },
+    "category": {
+      "bonus": "Bonus: {}",
+      "malus": "Malus: {}"
+    },
+    "average-impact-message": "The average impact of products in the same category is ",
+    "titles": {
+      "bonus-malus": "Bonuses and maluses",
+      "life-cycle-analysis": "Life Cycle Analysis"
+    },
+    "more-info-link": "More information",
+    "progress-bar-caption": "Out of ",
+    "scan-more": "No, scan next",
+    "add-basket": "Add to basket"
+  },
+  "basketpage": {
+    "dltBtn": "Delete Basket",
+    "points": "Eat.It points in total",
+    "confirmBtm": "Confirm purchase",
+    "scanMore": "No, scan more",
+    "empty": {
+      "text": "Empty basket - please scan some products to get points!",
+      "button": "Let’s scan!"
+    }
+  },
+  "marketPlaceholder": {
+    "text": "The first sustainable marketplace is opening soon! Use earned points for discounts!"
+  },
+  "confirmation": {
+    "title": "congratulations!",
+    "subtitle": "You have earned {} Eat.It points"
+  },
+  "profile": {
+    "logout": "logout",
+    "scores": "scores",
+    "leaderboard": "leaderboard",
+    "pointsTile": "Eat.It\nPoints",
+    "leaderboardTile": "Leaderboard\nPosition",
+    "leaderboardPosition": {
+      "one": "{}st",
+      "two": "{}nd",
+      "three": "{}rd",
+      "other": "{}th",
+      "many": "{}th"
+    }
+  },
+  "edit-profile": {
+    "my-details": "my details",
+    "delete-account": "Delete Account",
+    "terms-conditions": "terms and conditions",
+    "button": "Save",
+    "terms-button": "Review Terms of Service",
+    "username-placeholder": "Username",
+    "description-placeholder": "Description",
+    "modal": {
+      "button1": "Select from Gallery",
+      "button2": "Open Camera",
+      "button3": "Cancel"
+    },
+    "error": {
+      "title": "Update error",
+      "message": "Profile update failed, try again later"
+    }
+  },
+  "welcome": {
+    "title": "welcome!",
+    "subtitle": "Login or create a new account",
+    "login": "Login",
+    "sign-up": "Sign Up"
+  },
+  "login": {
+    "title": "login",
+    "email-placeholder": "Email ID or Username",
+    "forgot-password": "Forgot Password?",
+    "submit": "Log in",
+    "dont-have-account": "Don’t have an account? ",
+    "sign-up": "Sign Up",
+    "errors": {
+      "invalid-login": {
+        "title": "INVALID EMAIL ID OR USERNAME",
+        "message": "The format of your E-mail or Username is incorrect"
+      },
+      "invalid-password": {
+        "title": "Invalid password",
+        "message": "The password must be between 6 and 50 characters long and can contain only Latin letters, numbers and special characters"
+      },
+      "bad-login": {
+        "title": "INCORRECT PASSWORD",
+        "message": "Your password is incorrect, please sign in or restore your password above"
+      }
+    },
+    "validations": {
+      "empty-field": "The field cannot be empty",
+      "login": "Invalid username or email",
+      "password": "Invalid password"
+    }
+  },
+  "signup": {
+    "title": "Sign Up",
+    "email": {
+      "placeholder": "Email"
+    },
+    "username": {
+      "placeholder": "Username"
+    },
+    "repeatPassword": {
+      "placeholder": "Repeat Password"
+    },
+    "submit": "Sign Up",
+    "have-account": "Have an account? ",
+    "sign-in": "Sign In",
+    "errors": {
+      "invalid-email": {
+        "title": "Invalid email",
+        "message": "The format of your E-mail is incorrect"
+      },
+      "invalid-username": {
+        "title": "Invalid username",
+        "message": "The username must be between 1 and 50 characters long and can contain only Latin letters, numbers, “-” and “_”"
+      },
+      "invalid-password": {
+        "title": "Invalid password",
+        "message": "The password must be between 6 and 50 characters long and can contain only Latin letters, numbers and special characters"
+      },
+      "password-mismatch": {
+        "title": "PASSWORDS DON’T MATCH",
+        "message": "Please make sure that both passwords are the same in the form above"
+      },
+      "invalid-agree": {
+        "title": "TERMS OF SERVICE",
+        "message": "Please accept the terms of service above to continue using the app"
+      }
+    },
+    "terms": {
+      "start": "I agree to the ",
+      "and": " and ",
+      "links": {
+        "terms-of-service": "Terms of Service",
+        "privacy-policy": "Privacy Policy"
+      }
+    }
+  },
+  "signup-confirmation": {
+    "title": "enter code",
+    "subtitle": "Please enter the code that you received by email.",
+    "submit": "Confirm",
+    "errors": {
+      "mismatch": {
+        "title": "THE CODE DOESN’T MATCH",
+        "message": "Please make sure that the code matches the email code"
+      }
+    }
+  },
+  "restore-password": {
+    "start": {
+      "title": "Restore password",
+      "login": {
+        "placeholder": "Email ID or Username"
+      },
+      "submit": "Send link",
+      "errors": {
+        "invalid-login": {
+          "title": "INVALID EMAIL OR USERNAME",
+          "message": "The format of your E-mail or Username is incorrect"
+        }
+      }
+    },
+    "confirmation": {
+      "title": "enter code",
+      "subtitle": "Please enter the code that you received by email.",
+      "submit": "Confirm"
+    },
+    "restore": {
+      "title": "new password",
+      "submit": "Log in"
+    }
+  },
+  "password": {
+    "placeholder": "Password",
+    "repeat-password": "Repeat Password"
+  },
+  "error": {
+    "server-error-title": "Server error",
+    "connection-error-title": "No connection",
+    "connection-error": "Connection to server is lost. Please check if you are connected to the internet",
+    "server-error": "Sorry, our server has an error. We're fixing it. Please try again later.",
+    "try-again": "Try again",
+    "ok": "Ok"
+  },
+  "default-error": {
+    "title": "Something went wrong",
+    "message": "Something went wrong, contact support"
+  },
+  "permissions": {
+    "title": "No permission",
+    "open-settings": "Open settings",
+    "camera": "The app doesn't have permission to use the camera. Please give permission in the device settings.",
+    "gallery": "The app doesn't have permission to use the gallery. Please give permission in the device settings."
+  },
+  "privacy-policy-title": "Privacy Policy",
+  "terms-of-service-title": "Terms of service"
+}

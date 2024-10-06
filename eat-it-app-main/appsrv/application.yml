@@ -1,0 +1,52 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    jdbcUrl: 'jdbc:postgresql://localhost:5432/eat_it'
+    username: 'eat_it'
+    password: 'eat_it'
+    driver-class-name: 'org.postgresql.Driver'
+    baselineOnMigrate: 'true'
+  sql:
+    init:
+      mode: 'always'
+  flyway:
+    user: 'eat_it'
+    password: 'eat_it'
+    url: 'jdbc:postgresql://localhost:5432/eat_it'
+    baselineOnMigrate: 'true'
+  profiles:
+    active: console-and-file-logging
+jwt:
+  issuer: 'servereatit@gmail.com'
+  signingKey: 'labec2qinf7j2lhj9lc1'
+  aTokenDuration: 30
+  refreshTokenDuration: 43200
+mail:
+  smtp:
+    host: localhost
+    port: 25
+    from: 'Eat.it server<servereatit@gmail.com>'
+    templatepath: 'template'
+  templates:
+    newRegistration: 'confirmTemplate.html'
+    youHack: 'youGetHacked.html'
+    restorePassword: 'restorePassword.html'
+  subjects:
+    newRegistration: 'Registration confirmation code'
+    youHack: 'Attempted Registration using your Email Address'
+    restorePassword: 'Password Reset'
+registration:
+  validHours: 1
+  attemptCount: 500
+logging:
+  level:
+    root: INFO
+    org.springframework.web: INFO
+    it.eat.back: DEBUG
+  file:
+    name: eat-it.log
+    path: /var/log/eat-it
+  pattern:
+    console: "%d{HH:mm:ss.SSS} 123 [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %-5p --- [%t] %-36logger{36} 456 %c{1.} - %m%n"

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta name="google-signin-client_id" content="489568861695-fbn055rn6cviief946au2q6o0iou3gev.apps.googleusercontent.com">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="'Buy It Market is an innovative online marketplace that connects consumers with local artisans and sustainable businesses,
+   offering a curated selection of unique and eco-friendly products to promote community engagement and environmental responsibility">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="eatit_dev">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>buyit_dev</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = null;
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+
+  <script src="https://apis.google.com/js/api.js" async defer></script>
+
+  <script>
+  
+    <!-- Add the Facebook SDK for Javascript -->
+
+    (function(d, s, id){
+                          var js, fjs = d.getElementsByTagName(s)[0];
+                          if (d.getElementById(id)) {return;}
+                          js = d.createElement(s); js.id = id;
+                          js.src = "https://connect.facebook.net/en_US/sdk.js";
+                          fjs.parentNode.insertBefore(js, fjs);
+                        }(document, 'script', 'facebook-jssdk')
+    );
+
+
+    window.fbAsyncInit = function() {
+        //<-- Initialize the SDK with your app and the Graph API version for your app -->
+        FB.init({
+                  appId            : '1272597870788187',
+                  xfbml            : true,
+                  version          : 'v20.0'
+                });
+    };
+
+  </script>
+
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js";
+    import { getStorage } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyDb_E-cRqc3CMBMWWzFB5J-MNkFLuDlhAw",
+      authDomain: "eatit-dev-ef4c8.firebaseapp.com",
+      projectId: "eatit-dev-ef4c8",
+      storageBucket: "eatit-dev-ef4c8.appspot.com",
+      messagingSenderId: "489568861695",
+      appId: "1:489568861695:web:0d80d43e8d62b08e147bca",
+      measurementId: "G-5VTGZDP887"
+    };
+    
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const storage = getStorage(app);
+  </script>
+  <script type="text/javascript">
+    window.flutterWebRenderer = "html";
+</script>
+
+<div id="fb-root"></div>
+<script src="main.dart.js" type="application/javascript"></script>
+
+</body>
+</html>
